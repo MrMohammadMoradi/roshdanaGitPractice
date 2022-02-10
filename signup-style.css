@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+form {
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+
+td,th {
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.SubmitBTN , .ARulesBox {
+    text-align: center;
+}
