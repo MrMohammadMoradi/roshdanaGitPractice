@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+form {
+    width: 550px;
+    height: 300px;
+    margin: auto;
+    margin-top: 50px;
+}
+
