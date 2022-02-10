@@ -5,9 +5,19 @@
 }
 
 form {
-    width: 550px;
+    width: 400px;
     height: 300px;
     margin: auto;
     margin-top: 50px;
 }
 
+
+
+td,th {
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.td_btn,.forget , .signup {
+    text-align: center;
+}
