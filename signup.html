@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> SingUp Page </title>
+    <link rel="stylesheet" href="signup-style.css">
+</head>
+<body>
+    <h1>SIGNUP PAGE </h1>
+    <form method="post">
+        <fieldset>
+            <legend>SIGNUP</legend>
+            <table>
+                <tr>
+                    <td> <label> Name : </label></td>
+                    <td> <input class="S_nameBox" type="text" placeholder="Eter your name" required></td>
+                </tr>
+                <tr>
+                    <td> <label> PhonNumber :</label> </td>
+                    <td> 
+                        <input class="S_numberBox" type="number" placeholder="09123456789" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label> Email : </label></td>
+                    <td> <input class="S_emailBox" type="email" placeholder="Eter your Email" required></td>
+                </tr>
+                <tr>
+                    <td> <label> PassWord : </label></td>
+                    <td> <input class="S_passwordBox" type="password" required></td>
+                </tr>
+                <tr>
+                    <td> <label>Confirm PassWord :</label></td>
+                    <td> <input class="S_CPasswordBox" type="password" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class = "ARulesBox">
+                        <input type = "checkbox" value="Accept_rules">
+                        <a href="#">Accept Rules</a> 
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="SubmitBTN">
+                        <input  type="submit" value="Submit">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
